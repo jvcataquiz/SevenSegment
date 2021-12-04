@@ -12,13 +12,16 @@ namespace Timer
 {
     public partial class Form1 : Form
     {
-        int seconds;
+        int seconds = 0;
         int seconds1;
         int tenthsec;
-        int onesmin = 0;
-        int tenthmin = 0;
+        int onesmin ;
+        int tenthmin;
+        int oneshr;
+        int tenthhr;
         string datesec;
         string datesec1;
+        int tacks = 0;
         
         public Form1()
         {
@@ -28,8 +31,9 @@ namespace Timer
 
         private void timerSec_Tick(object sender, EventArgs e)
         {
+            tacks++;
             datesec = DateTime.Now.ToString("ss");
-            seconds = Convert.ToInt32(datesec.Substring(datesec.Length - 1));
+            seconds = Convert.ToInt32(datesec.Substring(datesec.Length - 1)) ;
           
             if (seconds == 0)
             {
@@ -86,7 +90,7 @@ namespace Timer
             else if (seconds == 5)
             {
                 btnSecTopRight.BackColor = System.Drawing.Color.Black;
-                btnSecTop.BackColor = System.Drawing.Color.Black;
+               
 
                 btnSecTop.PerformClick();
                 btnSecTopleft.PerformClick();
@@ -131,7 +135,7 @@ namespace Timer
                 btnSecMid.PerformClick();
             }
            
-            else
+            else if (seconds == 9)
             {
 
                 btnSecBotleft.BackColor = System.Drawing.Color.Black;
@@ -143,7 +147,13 @@ namespace Timer
                 btnSecMid.PerformClick();
 
             }
+            else
+            {
+                btnSecMid.BackColor = System.Drawing.Color.Black;
+                btnSecBotleft.PerformClick();
+                
 
+            }
 
 
             TenSec();
@@ -214,8 +224,7 @@ namespace Timer
             else if (tenthsec == 5)
             {
                 btnTop2right.BackColor = System.Drawing.Color.Black;
-                btnTop2.BackColor = System.Drawing.Color.Black;
-
+           
                 btnTop2.PerformClick();
                 btnTop2left.PerformClick();
                 btnMid2.PerformClick();
@@ -291,7 +300,7 @@ namespace Timer
             else if (onesmin == 5)
             {
                 btnoneright.BackColor = System.Drawing.Color.Black;
-                btnoneTop.BackColor = System.Drawing.Color.Black;
+               
 
                 btnoneTop.PerformClick();
                 btnonetopleft.PerformClick();
@@ -414,7 +423,7 @@ namespace Timer
             else if (tenthmin == 5)
             {
                 btntenmintopright.BackColor = System.Drawing.Color.Black;
-                btntenmintop.BackColor = System.Drawing.Color.Black;
+                
 
                 btntenmintop.PerformClick();
                 btntenmintopleft.PerformClick();
@@ -429,7 +438,178 @@ namespace Timer
                 btntenminmid.BackColor = System.Drawing.Color.Black;
                 btntenmintopright.PerformClick();
                 btntenminbotleft.PerformClick();
+                
+            }
+           onehour();
+        }
+        private void onehour()
+        {
+            string datehour = DateTime.Now.ToString("hh");
+            oneshr = Convert.ToInt32(datehour.Substring(datehour.Length - 1));
+            if (oneshr == 0)
+            {
+                midonehr.BackColor = System.Drawing.Color.Black;
 
+                toponehr.PerformClick();
+                topleftonehr.PerformClick();
+                toprightonehr.PerformClick();
+                botonerighthr.PerformClick();
+                botleftonehr.PerformClick();
+                botonehr.PerformClick();
+            }
+            else if (oneshr == 1)
+            {
+                toponehr.BackColor = System.Drawing.Color.Black;
+                topleftonehr.BackColor = System.Drawing.Color.Black;
+                botleftonehr.BackColor = System.Drawing.Color.Black;
+                botonehr.BackColor = System.Drawing.Color.Black;
+
+                toprightonehr.PerformClick();
+                botonerighthr.PerformClick();
+            }
+            else if (oneshr == 2)
+            {
+                botonerighthr.BackColor = System.Drawing.Color.Black;
+
+                toponehr.PerformClick();
+                toprightonehr.PerformClick();
+                midonehr.PerformClick();
+                botleftonehr.PerformClick();
+                botonehr.PerformClick();
+            }
+            else if (oneshr == 3)
+            {
+
+                botleftonehr.BackColor = System.Drawing.Color.Black;
+
+                toponehr.PerformClick();
+                toprightonehr.PerformClick();
+                midonehr.PerformClick();
+                botonerighthr.PerformClick();
+                botonehr.PerformClick();
+            }
+            else if (oneshr == 4)
+            {
+                toponehr.BackColor = System.Drawing.Color.Black;
+                botonehr.BackColor = System.Drawing.Color.Black;
+
+                topleftonehr.PerformClick();
+                midonehr.PerformClick();
+                toprightonehr.PerformClick();
+                botonerighthr.PerformClick();
+            }
+            else if (oneshr == 5)
+            {
+                toprightonehr.BackColor = System.Drawing.Color.Black;
+               
+
+                toponehr.PerformClick();
+                topleftonehr.PerformClick();
+                midonehr.PerformClick();
+                botonerighthr.PerformClick();
+                botonehr.PerformClick();
+
+            }
+
+
+
+            else if (oneshr == 6)
+            {
+                toponehr.PerformClick();
+                topleftonehr.PerformClick();
+                midonehr.PerformClick();
+                botonerighthr.PerformClick();
+                botonehr.PerformClick();
+                botleftonehr.PerformClick();
+            }
+
+            else if (oneshr == 7)
+            {
+                topleftonehr.BackColor = System.Drawing.Color.Black;
+                midonehr.BackColor = System.Drawing.Color.Black; ;
+                botonehr.BackColor = System.Drawing.Color.Black;
+                botleftonehr.BackColor = System.Drawing.Color.Black;
+
+                toponehr.PerformClick();
+                toprightonehr.PerformClick();
+                botonerighthr.PerformClick();
+            }
+
+            else if (oneshr == 8)
+            {
+                toponehr.PerformClick();
+                topleftonehr.PerformClick();
+                toprightonehr.PerformClick();
+                botonerighthr.PerformClick();
+                botleftonehr.PerformClick();
+                botonehr.PerformClick();
+                midonehr.PerformClick();
+            }
+
+            else if(oneshr == 9)
+            {
+
+                botleftonehr.BackColor = System.Drawing.Color.Black;
+                toponehr.PerformClick();
+                topleftonehr.PerformClick();
+                toprightonehr.PerformClick();
+                botonerighthr.PerformClick();
+                botonehr.PerformClick();
+                midonehr.PerformClick();
+               
+            }
+            else
+            {
+                midonehr.BackColor = System.Drawing.Color.Black;
+                botleftonehr.PerformClick();
+                
+            }
+
+            tenhour();
+
+        }
+        private void tenhour()
+        {
+            string datehour1 = DateTime.Now.ToString("hh");
+            tenthhr = Convert.ToInt32(datehour1.Substring(0, 1));
+
+            if (tenthhr == 0)
+            {
+                hrmid.BackColor = System.Drawing.Color.Black;
+
+                hrtop.PerformClick();
+                hrtopleft.PerformClick();
+                hrtopright.PerformClick();
+                hrbotright.PerformClick();
+                hrbotleft.PerformClick();
+                hrbot.PerformClick();
+            }
+            else if (tenthhr == 1)
+            {
+                hrtop.BackColor = System.Drawing.Color.Black;
+                hrtopleft.BackColor = System.Drawing.Color.Black;
+                hrbotleft.BackColor = System.Drawing.Color.Black;
+                hrbot.BackColor = System.Drawing.Color.Black;
+
+                hrtopright.PerformClick();
+                hrbotright.PerformClick();
+            }
+            else if (tenthhr == 2)
+            {
+                hrbotright.BackColor = System.Drawing.Color.Black;
+
+                hrtop.PerformClick();
+                hrtopright.PerformClick();
+                hrmid.PerformClick();
+                hrbotleft.PerformClick();
+                hrbot.PerformClick();
+            }
+            else
+            {
+                hrmid.BackColor = System.Drawing.Color.Black;
+                hrtopleft.PerformClick();
+                hrbotright.PerformClick();
+                
             }
 
         }
@@ -437,6 +617,16 @@ namespace Timer
         {
             Button btnclick = (Button)sender;
             btnclick.BackColor = System.Drawing.Color.White;
+        }
+
+        private void ButtonOn_Click(object sender, EventArgs e)
+        {
+            timerSec.Enabled = true;
+        }
+
+        private void buttonOff_Click(object sender, EventArgs e)
+        {
+            timerSec.Enabled = false;
         }
     }
 }

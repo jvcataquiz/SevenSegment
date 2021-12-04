@@ -61,20 +61,24 @@ namespace Timer
             this.btnonebotright = new System.Windows.Forms.Button();
             this.btnonebotleft = new System.Windows.Forms.Button();
             this.btnonemid = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
+            this.hrbot = new System.Windows.Forms.Button();
+            this.hrtop = new System.Windows.Forms.Button();
+            this.botonehr = new System.Windows.Forms.Button();
+            this.hrtopright = new System.Windows.Forms.Button();
+            this.hrtopleft = new System.Windows.Forms.Button();
+            this.hrbotright = new System.Windows.Forms.Button();
+            this.hrbotleft = new System.Windows.Forms.Button();
+            this.hrmid = new System.Windows.Forms.Button();
+            this.toponehr = new System.Windows.Forms.Button();
+            this.toprightonehr = new System.Windows.Forms.Button();
+            this.topleftonehr = new System.Windows.Forms.Button();
+            this.botonerighthr = new System.Windows.Forms.Button();
+            this.botleftonehr = new System.Windows.Forms.Button();
+            this.midonehr = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.ButtonOn = new System.Windows.Forms.Button();
+            this.buttonOff = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSecMid
@@ -211,11 +215,11 @@ namespace Timer
             // 
             // Dot
             // 
-            this.Dot.BackColor = System.Drawing.Color.White;
+            this.Dot.BackColor = System.Drawing.Color.Snow;
             this.Dot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Dot.Location = new System.Drawing.Point(485, 268);
+            this.Dot.Location = new System.Drawing.Point(485, 229);
             this.Dot.Name = "Dot";
-            this.Dot.Size = new System.Drawing.Size(35, 35);
+            this.Dot.Size = new System.Drawing.Size(28, 28);
             this.Dot.TabIndex = 21;
             // 
             // btnBot
@@ -256,7 +260,6 @@ namespace Timer
             // 
             // timerSec
             // 
-            this.timerSec.Enabled = true;
             this.timerSec.Interval = 1000;
             this.timerSec.Tick += new System.EventHandler(this.timerSec_Tick);
             // 
@@ -298,12 +301,12 @@ namespace Timer
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Snow;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.ForeColor = System.Drawing.Color.SlateGray;
-            this.label1.Location = new System.Drawing.Point(236, 268);
+            this.label1.Location = new System.Drawing.Point(236, 229);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 35);
+            this.label1.Size = new System.Drawing.Size(28, 28);
             this.label1.TabIndex = 36;
             // 
             // btntenmintopright
@@ -438,159 +441,218 @@ namespace Timer
             this.btnonemid.UseVisualStyleBackColor = true;
             this.btnonemid.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button15
+            // hrbot
             // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(45, 280);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(60, 23);
-            this.button15.TabIndex = 53;
-            this.button15.TabStop = false;
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrbot.FlatAppearance.BorderSize = 0;
+            this.hrbot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrbot.Location = new System.Drawing.Point(45, 280);
+            this.hrbot.Name = "hrbot";
+            this.hrbot.Size = new System.Drawing.Size(60, 23);
+            this.hrbot.TabIndex = 53;
+            this.hrbot.TabStop = false;
+            this.hrbot.UseVisualStyleBackColor = true;
+            this.hrbot.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button16
+            // hrtop
             // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(45, 98);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(60, 23);
-            this.button16.TabIndex = 52;
-            this.button16.TabStop = false;
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrtop.FlatAppearance.BorderSize = 0;
+            this.hrtop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrtop.Location = new System.Drawing.Point(45, 98);
+            this.hrtop.Name = "hrtop";
+            this.hrtop.Size = new System.Drawing.Size(60, 23);
+            this.hrtop.TabIndex = 52;
+            this.hrtop.TabStop = false;
+            this.hrtop.UseVisualStyleBackColor = true;
+            this.hrtop.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button17
+            // botonehr
             // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(149, 280);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(60, 23);
-            this.button17.TabIndex = 51;
-            this.button17.TabStop = false;
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.HoursMinSEC);
+            this.botonehr.FlatAppearance.BorderSize = 0;
+            this.botonehr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonehr.Location = new System.Drawing.Point(149, 280);
+            this.botonehr.Name = "botonehr";
+            this.botonehr.Size = new System.Drawing.Size(60, 23);
+            this.botonehr.TabIndex = 51;
+            this.botonehr.TabStop = false;
+            this.botonehr.UseVisualStyleBackColor = true;
+            this.botonehr.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button18
+            // hrtopright
             // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(104, 98);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(20, 107);
-            this.button18.TabIndex = 50;
-            this.button18.TabStop = false;
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrtopright.FlatAppearance.BorderSize = 0;
+            this.hrtopright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrtopright.Location = new System.Drawing.Point(104, 98);
+            this.hrtopright.Name = "hrtopright";
+            this.hrtopright.Size = new System.Drawing.Size(20, 107);
+            this.hrtopright.TabIndex = 50;
+            this.hrtopright.TabStop = false;
+            this.hrtopright.UseVisualStyleBackColor = true;
+            this.hrtopright.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button19
+            // hrtopleft
             // 
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(26, 98);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(20, 107);
-            this.button19.TabIndex = 49;
-            this.button19.TabStop = false;
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrtopleft.FlatAppearance.BorderSize = 0;
+            this.hrtopleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrtopleft.Location = new System.Drawing.Point(26, 98);
+            this.hrtopleft.Name = "hrtopleft";
+            this.hrtopleft.Size = new System.Drawing.Size(20, 107);
+            this.hrtopleft.TabIndex = 49;
+            this.hrtopleft.TabStop = false;
+            this.hrtopleft.UseVisualStyleBackColor = true;
+            this.hrtopleft.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button20
+            // hrbotright
             // 
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(104, 202);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(20, 101);
-            this.button20.TabIndex = 48;
-            this.button20.TabStop = false;
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrbotright.FlatAppearance.BorderSize = 0;
+            this.hrbotright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrbotright.Location = new System.Drawing.Point(104, 202);
+            this.hrbotright.Name = "hrbotright";
+            this.hrbotright.Size = new System.Drawing.Size(20, 101);
+            this.hrbotright.TabIndex = 48;
+            this.hrbotright.TabStop = false;
+            this.hrbotright.UseVisualStyleBackColor = true;
+            this.hrbotright.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button21
+            // hrbotleft
             // 
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(26, 202);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(20, 101);
-            this.button21.TabIndex = 47;
-            this.button21.TabStop = false;
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrbotleft.FlatAppearance.BorderSize = 0;
+            this.hrbotleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrbotleft.Location = new System.Drawing.Point(26, 202);
+            this.hrbotleft.Name = "hrbotleft";
+            this.hrbotleft.Size = new System.Drawing.Size(20, 101);
+            this.hrbotleft.TabIndex = 47;
+            this.hrbotleft.TabStop = false;
+            this.hrbotleft.UseVisualStyleBackColor = true;
+            this.hrbotleft.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button22
+            // hrmid
             // 
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(45, 189);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(60, 23);
-            this.button22.TabIndex = 46;
-            this.button22.TabStop = false;
-            this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.HoursMinSEC);
+            this.hrmid.FlatAppearance.BorderSize = 0;
+            this.hrmid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hrmid.Location = new System.Drawing.Point(45, 189);
+            this.hrmid.Name = "hrmid";
+            this.hrmid.Size = new System.Drawing.Size(60, 23);
+            this.hrmid.TabIndex = 46;
+            this.hrmid.TabStop = false;
+            this.hrmid.UseVisualStyleBackColor = true;
+            this.hrmid.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button23
+            // toponehr
             // 
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(149, 98);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(60, 23);
-            this.button23.TabIndex = 45;
-            this.button23.TabStop = false;
-            this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.HoursMinSEC);
+            this.toponehr.FlatAppearance.BorderSize = 0;
+            this.toponehr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.toponehr.Location = new System.Drawing.Point(149, 98);
+            this.toponehr.Name = "toponehr";
+            this.toponehr.Size = new System.Drawing.Size(60, 23);
+            this.toponehr.TabIndex = 45;
+            this.toponehr.TabStop = false;
+            this.toponehr.UseVisualStyleBackColor = true;
+            this.toponehr.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button24
+            // toprightonehr
             // 
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(208, 98);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(20, 107);
-            this.button24.TabIndex = 44;
-            this.button24.TabStop = false;
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.HoursMinSEC);
+            this.toprightonehr.FlatAppearance.BorderSize = 0;
+            this.toprightonehr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.toprightonehr.Location = new System.Drawing.Point(208, 98);
+            this.toprightonehr.Name = "toprightonehr";
+            this.toprightonehr.Size = new System.Drawing.Size(20, 107);
+            this.toprightonehr.TabIndex = 44;
+            this.toprightonehr.TabStop = false;
+            this.toprightonehr.UseVisualStyleBackColor = true;
+            this.toprightonehr.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button25
+            // topleftonehr
             // 
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(130, 98);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(20, 107);
-            this.button25.TabIndex = 43;
-            this.button25.TabStop = false;
-            this.button25.UseVisualStyleBackColor = true;
-            this.button25.Click += new System.EventHandler(this.HoursMinSEC);
+            this.topleftonehr.FlatAppearance.BorderSize = 0;
+            this.topleftonehr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.topleftonehr.Location = new System.Drawing.Point(130, 98);
+            this.topleftonehr.Name = "topleftonehr";
+            this.topleftonehr.Size = new System.Drawing.Size(20, 107);
+            this.topleftonehr.TabIndex = 43;
+            this.topleftonehr.TabStop = false;
+            this.topleftonehr.UseVisualStyleBackColor = true;
+            this.topleftonehr.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button26
+            // botonerighthr
             // 
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(208, 202);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(20, 101);
-            this.button26.TabIndex = 42;
-            this.button26.TabStop = false;
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.HoursMinSEC);
+            this.botonerighthr.FlatAppearance.BorderSize = 0;
+            this.botonerighthr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonerighthr.Location = new System.Drawing.Point(208, 202);
+            this.botonerighthr.Name = "botonerighthr";
+            this.botonerighthr.Size = new System.Drawing.Size(20, 101);
+            this.botonerighthr.TabIndex = 42;
+            this.botonerighthr.TabStop = false;
+            this.botonerighthr.UseVisualStyleBackColor = true;
+            this.botonerighthr.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button27
+            // botleftonehr
             // 
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(130, 202);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(20, 101);
-            this.button27.TabIndex = 41;
-            this.button27.TabStop = false;
-            this.button27.UseVisualStyleBackColor = true;
-            this.button27.Click += new System.EventHandler(this.HoursMinSEC);
+            this.botleftonehr.FlatAppearance.BorderSize = 0;
+            this.botleftonehr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botleftonehr.Location = new System.Drawing.Point(130, 202);
+            this.botleftonehr.Name = "botleftonehr";
+            this.botleftonehr.Size = new System.Drawing.Size(20, 101);
+            this.botleftonehr.TabIndex = 41;
+            this.botleftonehr.TabStop = false;
+            this.botleftonehr.UseVisualStyleBackColor = true;
+            this.botleftonehr.Click += new System.EventHandler(this.HoursMinSEC);
             // 
-            // button28
+            // midonehr
             // 
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(149, 189);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(60, 23);
-            this.button28.TabIndex = 40;
-            this.button28.TabStop = false;
-            this.button28.UseVisualStyleBackColor = true;
-            this.button28.Click += new System.EventHandler(this.HoursMinSEC);
+            this.midonehr.FlatAppearance.BorderSize = 0;
+            this.midonehr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.midonehr.Location = new System.Drawing.Point(149, 189);
+            this.midonehr.Name = "midonehr";
+            this.midonehr.Size = new System.Drawing.Size(60, 23);
+            this.midonehr.TabIndex = 40;
+            this.midonehr.TabStop = false;
+            this.midonehr.UseVisualStyleBackColor = true;
+            this.midonehr.Click += new System.EventHandler(this.HoursMinSEC);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Snow;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.ForeColor = System.Drawing.Color.SlateGray;
+            this.label2.Location = new System.Drawing.Point(236, 150);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 28);
+            this.label2.TabIndex = 55;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Snow;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Location = new System.Drawing.Point(485, 150);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 28);
+            this.label3.TabIndex = 54;
+            // 
+            // ButtonOn
+            // 
+            this.ButtonOn.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonOn.ForeColor = System.Drawing.Color.Red;
+            this.ButtonOn.Location = new System.Drawing.Point(488, 403);
+            this.ButtonOn.Name = "ButtonOn";
+            this.ButtonOn.Size = new System.Drawing.Size(117, 50);
+            this.ButtonOn.TabIndex = 56;
+            this.ButtonOn.TabStop = false;
+            this.ButtonOn.Text = "ON";
+            this.ButtonOn.UseVisualStyleBackColor = true;
+            this.ButtonOn.Click += new System.EventHandler(this.ButtonOn_Click);
+            // 
+            // buttonOff
+            // 
+            this.buttonOff.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonOff.ForeColor = System.Drawing.Color.Red;
+            this.buttonOff.Location = new System.Drawing.Point(630, 403);
+            this.buttonOff.Name = "buttonOff";
+            this.buttonOff.Size = new System.Drawing.Size(117, 50);
+            this.buttonOff.TabIndex = 57;
+            this.buttonOff.TabStop = false;
+            this.buttonOff.Text = "OFF";
+            this.buttonOff.UseVisualStyleBackColor = true;
+            this.buttonOff.Click += new System.EventHandler(this.buttonOff_Click);
             // 
             // Form1
             // 
@@ -598,20 +660,24 @@ namespace Timer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 485);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button28);
+            this.Controls.Add(this.buttonOff);
+            this.Controls.Add(this.ButtonOn);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.hrbot);
+            this.Controls.Add(this.hrtop);
+            this.Controls.Add(this.botonehr);
+            this.Controls.Add(this.hrtopright);
+            this.Controls.Add(this.hrtopleft);
+            this.Controls.Add(this.hrbotright);
+            this.Controls.Add(this.hrbotleft);
+            this.Controls.Add(this.hrmid);
+            this.Controls.Add(this.toponehr);
+            this.Controls.Add(this.toprightonehr);
+            this.Controls.Add(this.topleftonehr);
+            this.Controls.Add(this.botonerighthr);
+            this.Controls.Add(this.botleftonehr);
+            this.Controls.Add(this.midonehr);
             this.Controls.Add(this.btntenminbot);
             this.Controls.Add(this.btntenmintop);
             this.Controls.Add(this.btnonebot);
@@ -682,20 +748,24 @@ namespace Timer
         private System.Windows.Forms.Button btnonebotright;
         private System.Windows.Forms.Button btnonebotleft;
         private System.Windows.Forms.Button btnonemid;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button hrbot;
+        private System.Windows.Forms.Button hrtop;
+        private System.Windows.Forms.Button botonehr;
+        private System.Windows.Forms.Button hrtopright;
+        private System.Windows.Forms.Button hrtopleft;
+        private System.Windows.Forms.Button hrbotright;
+        private System.Windows.Forms.Button hrbotleft;
+        private System.Windows.Forms.Button hrmid;
+        private System.Windows.Forms.Button toponehr;
+        private System.Windows.Forms.Button toprightonehr;
+        private System.Windows.Forms.Button topleftonehr;
+        private System.Windows.Forms.Button botonerighthr;
+        private System.Windows.Forms.Button botleftonehr;
+        private System.Windows.Forms.Button midonehr;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button ButtonOn;
+        private System.Windows.Forms.Button buttonOff;
     }
 }
 
