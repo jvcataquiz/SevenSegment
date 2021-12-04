@@ -138,8 +138,9 @@ namespace Timer
                 Tick = 0;
                 tenthsec++;
             }
-       
-  
+            TenSec();
+
+
         }
 
         private void SecondElements(object sender, EventArgs e)
@@ -148,9 +149,81 @@ namespace Timer
             btnclick.BackColor = System.Drawing.Color.Red;
            
         }
-        private void changer()
+        private void TenSec()
         {
-          
+
+            if (tenthsec == 0)
+            {
+                btnTop2.PerformClick();
+                btnTop2left.PerformClick();
+                btnTop2right.PerformClick();
+                btnBot2right.PerformClick();
+                btnBot2lleft.PerformClick();
+                btnBot2.PerformClick();
+            }
+            else if (tenthsec == 1)
+            {
+                btnTop2.UseVisualStyleBackColor = true;
+                btnTop2left.UseVisualStyleBackColor = true;
+                btnBot2lleft.UseVisualStyleBackColor = true;
+                btnBot2.UseVisualStyleBackColor = true;
+
+                btnTop2right.PerformClick();
+                btnBot2right.PerformClick();
+            }
+            else if (tenthsec == 2)
+            {
+                btnBot2right.UseVisualStyleBackColor = true;
+
+                btnTop2.PerformClick();
+                btnTop2right.PerformClick();
+                btnMid2.PerformClick();
+                btnBot2lleft.PerformClick();
+                btnBot2.PerformClick();
+            }
+            else if (tenthsec == 3)
+            {
+
+                btnBot2lleft.UseVisualStyleBackColor = true;
+
+                btnTop2.PerformClick();
+                btnTop2right.PerformClick();
+                btnMid2.PerformClick();
+                btnBot2right.PerformClick();
+                btnBot2.PerformClick();
+            }
+            else if (tenthsec == 4)
+            {
+                btnTop2.UseVisualStyleBackColor = true;
+                btnBot2.UseVisualStyleBackColor = true;
+
+                btnTop2left.PerformClick();
+                btnMid2.PerformClick();
+                btnTop2right.PerformClick();
+                btnBot2right.PerformClick();
+            }
+            else if (tenthsec == 5)
+            {
+                btnTop2right.UseVisualStyleBackColor = true;
+                btnTop2.UseVisualStyleBackColor = true;
+
+                btnTop2.PerformClick();
+                btnTop2left.PerformClick();
+                btnMid2.PerformClick();
+                btnBot2right.PerformClick();
+                btnBot2.PerformClick();
+
+            }
+
+            else
+            {
+               
+                btnMid2.UseVisualStyleBackColor = true;
+                btnTop2right.PerformClick();
+                btnBot2lleft.PerformClick();
+                tenthsec = 0;
+            }
+
         }
     }
 }

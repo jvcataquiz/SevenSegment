@@ -199,7 +199,7 @@ namespace Timer
             // timerSec
             // 
             this.timerSec.Enabled = true;
-            this.timerSec.Interval = 1000;
+            this.timerSec.Interval = 500;
             this.timerSec.Tick += new System.EventHandler(this.timerSec_Tick);
             // 
             // Form1
