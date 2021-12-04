@@ -1,0 +1,10 @@
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\bin\Debug\Timer.exe.config
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\bin\Debug\Timer.exe
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\bin\Debug\Timer.pdb
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.csproj.AssemblyReference.cache
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.Form1.resources
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.Properties.Resources.resources
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.csproj.GenerateResource.cache
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.csproj.CoreCompileInputs.cache
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.exe
+C:\Users\Jv Cataquiz\source\repos\Assigment8\SevenSegment\Timer\obj\Debug\Timer.pdb
