@@ -13,7 +13,7 @@ namespace Timer
     public partial class Form1 : Form
     {
         int Tick = -1;
-        bool Color = true;
+        int tenthsec = 0;
         public Form1()
         {
             InitializeComponent();
@@ -38,15 +38,13 @@ namespace Timer
                 btnSecTopleft.UseVisualStyleBackColor = true;
                 btnSecBotleft.UseVisualStyleBackColor = true;
                 btnBot.UseVisualStyleBackColor = true;
-                btnSecMid.UseVisualStyleBackColor = true;
-
+               
                 btnSecTopRight.PerformClick();
                 btnSecBotright.PerformClick();
             }
             else if (Tick == 2)
             {
                 btnSecBotright.UseVisualStyleBackColor = true;
-                btnSecTopRight.UseVisualStyleBackColor = true;
 
                 btnSecTop.PerformClick();
                 btnSecTopRight.PerformClick();
@@ -56,11 +54,8 @@ namespace Timer
             }
             else if (Tick == 3)
             {
-                btnSecTop.UseVisualStyleBackColor = true;
-                btnSecTopRight.UseVisualStyleBackColor = true;
-                btnSecMid.UseVisualStyleBackColor = true;
+               
                 btnSecBotleft.UseVisualStyleBackColor = true;
-                btnBot.UseVisualStyleBackColor = true;
 
                 btnSecTop.PerformClick();
                 btnSecTopRight.PerformClick();
@@ -68,7 +63,83 @@ namespace Timer
                 btnSecBotright.PerformClick();
                 btnBot.PerformClick();
             }
-           
+            else if (Tick ==4)
+            {
+                btnSecTop.UseVisualStyleBackColor = true;
+                btnBot.UseVisualStyleBackColor = true;
+
+                btnSecTopleft.PerformClick();
+                btnSecMid.PerformClick();
+                btnSecTopRight.PerformClick();
+                btnSecBotright.PerformClick();
+            }
+            else if (Tick == 5)
+            {
+                btnSecTopRight.UseVisualStyleBackColor = true;
+                btnSecTop.UseVisualStyleBackColor = true;
+
+                btnSecTop.PerformClick();
+                btnSecTopleft.PerformClick();
+                btnSecMid.PerformClick();
+                btnSecBotright.PerformClick();
+                btnBot.PerformClick();
+
+            }
+
+
+
+            else if (Tick == 6)
+            {
+                btnSecTop.PerformClick();
+                btnSecTopleft.PerformClick();
+                btnSecMid.PerformClick();
+                btnSecBotright.PerformClick();
+                btnBot.PerformClick();
+                btnSecBotleft.PerformClick();
+            }
+
+            else if (Tick == 7)
+            {
+                btnSecTopleft.UseVisualStyleBackColor = true;
+                btnSecMid.UseVisualStyleBackColor = true; ;
+                btnBot.UseVisualStyleBackColor = true;
+                btnSecBotleft.UseVisualStyleBackColor = true;
+
+                btnSecTop.PerformClick();
+                btnSecTopRight.PerformClick();
+                btnSecBotright.PerformClick();
+            }
+
+            else if (Tick == 8)
+            {
+                btnSecTop.PerformClick();
+                btnSecTopleft.PerformClick();
+                btnSecTopRight.PerformClick();
+                btnSecBotright.PerformClick();
+                btnSecBotleft.PerformClick();
+                btnBot.PerformClick();
+                btnSecMid.PerformClick();
+            }
+            else if(Tick == 9)
+            {
+                btnSecBotleft.UseVisualStyleBackColor = true;
+                btnSecTop.PerformClick();
+                btnSecTopleft.PerformClick();
+                btnSecTopRight.PerformClick();
+                btnSecBotright.PerformClick();
+                btnBot.PerformClick();
+                btnSecMid.PerformClick();
+
+            }
+            else
+            {
+                btnSecMid.UseVisualStyleBackColor = true;
+                btnSecBotleft.PerformClick();
+                Tick = 0;
+                tenthsec++;
+            }
+       
+  
         }
 
         private void SecondElements(object sender, EventArgs e)
