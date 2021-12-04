@@ -22,11 +22,14 @@ namespace Timer
         string datesec;
         string datesec1;
         int tacks = 0;
+        string [] amorpm = null;
         
         public Form1()
         {
             InitializeComponent();
-          
+            amorpm = DateTime.Now.ToString().Split(' ');
+            labelamorpm.Text = amorpm[2].ToString();
+            labelDATE.Text = labelDATE.Text + amorpm[0].ToString();
         }
 
         private void timerSec_Tick(object sender, EventArgs e)
@@ -619,14 +622,5 @@ namespace Timer
             btnclick.BackColor = System.Drawing.Color.White;
         }
 
-        private void ButtonOn_Click(object sender, EventArgs e)
-        {
-            timerSec.Enabled = true;
-        }
-
-        private void buttonOff_Click(object sender, EventArgs e)
-        {
-            timerSec.Enabled = false;
-        }
     }
 }

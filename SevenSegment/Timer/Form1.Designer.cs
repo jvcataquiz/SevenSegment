@@ -77,8 +77,8 @@ namespace Timer
             this.midonehr = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.ButtonOn = new System.Windows.Forms.Button();
-            this.buttonOff = new System.Windows.Forms.Button();
+            this.labelamorpm = new System.Windows.Forms.Label();
+            this.labelDATE = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSecMid
@@ -260,6 +260,7 @@ namespace Timer
             // 
             // timerSec
             // 
+            this.timerSec.Enabled = true;
             this.timerSec.Interval = 1000;
             this.timerSec.Tick += new System.EventHandler(this.timerSec_Tick);
             // 
@@ -628,40 +629,36 @@ namespace Timer
             this.label3.Size = new System.Drawing.Size(28, 28);
             this.label3.TabIndex = 54;
             // 
-            // ButtonOn
+            // labelamorpm
             // 
-            this.ButtonOn.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonOn.ForeColor = System.Drawing.Color.Red;
-            this.ButtonOn.Location = new System.Drawing.Point(488, 403);
-            this.ButtonOn.Name = "ButtonOn";
-            this.ButtonOn.Size = new System.Drawing.Size(117, 50);
-            this.ButtonOn.TabIndex = 56;
-            this.ButtonOn.TabStop = false;
-            this.ButtonOn.Text = "ON";
-            this.ButtonOn.UseVisualStyleBackColor = true;
-            this.ButtonOn.Click += new System.EventHandler(this.ButtonOn_Click);
+            this.labelamorpm.AutoSize = true;
+            this.labelamorpm.Font = new System.Drawing.Font("Castellar", 25.75F, System.Drawing.FontStyle.Bold);
+            this.labelamorpm.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.labelamorpm.Location = new System.Drawing.Point(734, 272);
+            this.labelamorpm.Name = "labelamorpm";
+            this.labelamorpm.Size = new System.Drawing.Size(85, 42);
+            this.labelamorpm.TabIndex = 56;
+            this.labelamorpm.Text = "AM";
             // 
-            // buttonOff
+            // labelDATE
             // 
-            this.buttonOff.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonOff.ForeColor = System.Drawing.Color.Red;
-            this.buttonOff.Location = new System.Drawing.Point(630, 403);
-            this.buttonOff.Name = "buttonOff";
-            this.buttonOff.Size = new System.Drawing.Size(117, 50);
-            this.buttonOff.TabIndex = 57;
-            this.buttonOff.TabStop = false;
-            this.buttonOff.Text = "OFF";
-            this.buttonOff.UseVisualStyleBackColor = true;
-            this.buttonOff.Click += new System.EventHandler(this.buttonOff_Click);
+            this.labelDATE.AutoSize = true;
+            this.labelDATE.Font = new System.Drawing.Font("Castellar", 35.75F, System.Drawing.FontStyle.Bold);
+            this.labelDATE.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.labelDATE.Location = new System.Drawing.Point(16, 342);
+            this.labelDATE.Name = "labelDATE";
+            this.labelDATE.Size = new System.Drawing.Size(204, 58);
+            this.labelDATE.TabIndex = 57;
+            this.labelDATE.Text = "DATE: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(800, 485);
-            this.Controls.Add(this.buttonOff);
-            this.Controls.Add(this.ButtonOn);
+            this.ClientSize = new System.Drawing.Size(828, 485);
+            this.Controls.Add(this.labelDATE);
+            this.Controls.Add(this.labelamorpm);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.hrbot);
@@ -710,8 +707,9 @@ namespace Timer
             this.Controls.Add(this.btnSecMid);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "7-Segment";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -764,8 +762,8 @@ namespace Timer
         private System.Windows.Forms.Button midonehr;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button ButtonOn;
-        private System.Windows.Forms.Button buttonOff;
+        private System.Windows.Forms.Label labelamorpm;
+        private System.Windows.Forms.Label labelDATE;
     }
 }
 
