@@ -112,7 +112,7 @@ namespace Timer
             // 
             this.btnTop2right.Location = new System.Drawing.Point(604, 98);
             this.btnTop2right.Name = "btnTop2right";
-            this.btnTop2right.Size = new System.Drawing.Size(20, 91);
+            this.btnTop2right.Size = new System.Drawing.Size(20, 107);
             this.btnTop2right.TabIndex = 18;
             this.btnTop2right.TabStop = false;
             this.btnTop2right.UseVisualStyleBackColor = true;
@@ -122,7 +122,7 @@ namespace Timer
             // 
             this.btnTop2left.Location = new System.Drawing.Point(526, 98);
             this.btnTop2left.Name = "btnTop2left";
-            this.btnTop2left.Size = new System.Drawing.Size(20, 91);
+            this.btnTop2left.Size = new System.Drawing.Size(20, 107);
             this.btnTop2left.TabIndex = 17;
             this.btnTop2left.TabStop = false;
             this.btnTop2left.UseVisualStyleBackColor = true;
@@ -130,9 +130,9 @@ namespace Timer
             // 
             // btnBot2right
             // 
-            this.btnBot2right.Location = new System.Drawing.Point(604, 211);
+            this.btnBot2right.Location = new System.Drawing.Point(604, 202);
             this.btnBot2right.Name = "btnBot2right";
-            this.btnBot2right.Size = new System.Drawing.Size(20, 92);
+            this.btnBot2right.Size = new System.Drawing.Size(20, 101);
             this.btnBot2right.TabIndex = 16;
             this.btnBot2right.TabStop = false;
             this.btnBot2right.UseVisualStyleBackColor = true;
@@ -140,9 +140,9 @@ namespace Timer
             // 
             // btnBot2lleft
             // 
-            this.btnBot2lleft.Location = new System.Drawing.Point(526, 211);
+            this.btnBot2lleft.Location = new System.Drawing.Point(526, 202);
             this.btnBot2lleft.Name = "btnBot2lleft";
-            this.btnBot2lleft.Size = new System.Drawing.Size(20, 92);
+            this.btnBot2lleft.Size = new System.Drawing.Size(20, 101);
             this.btnBot2lleft.TabIndex = 15;
             this.btnBot2lleft.TabStop = false;
             this.btnBot2lleft.UseVisualStyleBackColor = true;
@@ -150,9 +150,9 @@ namespace Timer
             // 
             // btnMid2
             // 
-            this.btnMid2.Location = new System.Drawing.Point(526, 189);
+            this.btnMid2.Location = new System.Drawing.Point(545, 189);
             this.btnMid2.Name = "btnMid2";
-            this.btnMid2.Size = new System.Drawing.Size(98, 23);
+            this.btnMid2.Size = new System.Drawing.Size(60, 23);
             this.btnMid2.TabIndex = 14;
             this.btnMid2.TabStop = false;
             this.btnMid2.UseVisualStyleBackColor = true;
