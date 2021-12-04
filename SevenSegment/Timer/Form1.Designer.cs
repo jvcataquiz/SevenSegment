@@ -79,6 +79,8 @@ namespace Timer
             // 
             // btnSecMid
             // 
+            this.btnSecMid.FlatAppearance.BorderSize = 0;
+            this.btnSecMid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecMid.Location = new System.Drawing.Point(649, 189);
             this.btnSecMid.Name = "btnSecMid";
             this.btnSecMid.Size = new System.Drawing.Size(60, 23);
@@ -89,6 +91,8 @@ namespace Timer
             // 
             // btnSecBotleft
             // 
+            this.btnSecBotleft.FlatAppearance.BorderSize = 0;
+            this.btnSecBotleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecBotleft.Location = new System.Drawing.Point(630, 202);
             this.btnSecBotleft.Name = "btnSecBotleft";
             this.btnSecBotleft.Size = new System.Drawing.Size(20, 101);
@@ -99,6 +103,8 @@ namespace Timer
             // 
             // btnSecBotright
             // 
+            this.btnSecBotright.FlatAppearance.BorderSize = 0;
+            this.btnSecBotright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecBotright.Location = new System.Drawing.Point(708, 202);
             this.btnSecBotright.Name = "btnSecBotright";
             this.btnSecBotright.Size = new System.Drawing.Size(20, 101);
@@ -109,6 +115,8 @@ namespace Timer
             // 
             // btnSecTopRight
             // 
+            this.btnSecTopRight.FlatAppearance.BorderSize = 0;
+            this.btnSecTopRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecTopRight.Location = new System.Drawing.Point(708, 98);
             this.btnSecTopRight.Name = "btnSecTopRight";
             this.btnSecTopRight.Size = new System.Drawing.Size(20, 107);
@@ -119,6 +127,8 @@ namespace Timer
             // 
             // btnSecTopleft
             // 
+            this.btnSecTopleft.FlatAppearance.BorderSize = 0;
+            this.btnSecTopleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecTopleft.Location = new System.Drawing.Point(630, 98);
             this.btnSecTopleft.Name = "btnSecTopleft";
             this.btnSecTopleft.Size = new System.Drawing.Size(20, 107);
@@ -129,6 +139,8 @@ namespace Timer
             // 
             // btnSecTop
             // 
+            this.btnSecTop.FlatAppearance.BorderSize = 0;
+            this.btnSecTop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecTop.Location = new System.Drawing.Point(649, 98);
             this.btnSecTop.Name = "btnSecTop";
             this.btnSecTop.Size = new System.Drawing.Size(60, 23);
@@ -139,6 +151,8 @@ namespace Timer
             // 
             // btnTop2right
             // 
+            this.btnTop2right.FlatAppearance.BorderSize = 0;
+            this.btnTop2right.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTop2right.Location = new System.Drawing.Point(604, 98);
             this.btnTop2right.Name = "btnTop2right";
             this.btnTop2right.Size = new System.Drawing.Size(20, 107);
@@ -149,6 +163,8 @@ namespace Timer
             // 
             // btnTop2left
             // 
+            this.btnTop2left.FlatAppearance.BorderSize = 0;
+            this.btnTop2left.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTop2left.Location = new System.Drawing.Point(526, 98);
             this.btnTop2left.Name = "btnTop2left";
             this.btnTop2left.Size = new System.Drawing.Size(20, 107);
@@ -159,6 +175,8 @@ namespace Timer
             // 
             // btnBot2right
             // 
+            this.btnBot2right.FlatAppearance.BorderSize = 0;
+            this.btnBot2right.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBot2right.Location = new System.Drawing.Point(604, 202);
             this.btnBot2right.Name = "btnBot2right";
             this.btnBot2right.Size = new System.Drawing.Size(20, 101);
@@ -169,6 +187,8 @@ namespace Timer
             // 
             // btnBot2lleft
             // 
+            this.btnBot2lleft.FlatAppearance.BorderSize = 0;
+            this.btnBot2lleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBot2lleft.Location = new System.Drawing.Point(526, 202);
             this.btnBot2lleft.Name = "btnBot2lleft";
             this.btnBot2lleft.Size = new System.Drawing.Size(20, 101);
@@ -179,6 +199,8 @@ namespace Timer
             // 
             // btnMid2
             // 
+            this.btnMid2.FlatAppearance.BorderSize = 0;
+            this.btnMid2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMid2.Location = new System.Drawing.Point(545, 189);
             this.btnMid2.Name = "btnMid2";
             this.btnMid2.Size = new System.Drawing.Size(60, 23);
@@ -189,7 +211,8 @@ namespace Timer
             // 
             // Dot
             // 
-            this.Dot.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Dot.BackColor = System.Drawing.Color.White;
+            this.Dot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Dot.Location = new System.Drawing.Point(485, 268);
             this.Dot.Name = "Dot";
             this.Dot.Size = new System.Drawing.Size(35, 35);
@@ -197,6 +220,8 @@ namespace Timer
             // 
             // btnBot
             // 
+            this.btnBot.FlatAppearance.BorderSize = 0;
+            this.btnBot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBot.Location = new System.Drawing.Point(649, 280);
             this.btnBot.Name = "btnBot";
             this.btnBot.Size = new System.Drawing.Size(60, 23);
@@ -207,6 +232,8 @@ namespace Timer
             // 
             // btnTop2
             // 
+            this.btnTop2.FlatAppearance.BorderSize = 0;
+            this.btnTop2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTop2.Location = new System.Drawing.Point(545, 98);
             this.btnTop2.Name = "btnTop2";
             this.btnTop2.Size = new System.Drawing.Size(60, 23);
@@ -217,6 +244,8 @@ namespace Timer
             // 
             // btnBot2
             // 
+            this.btnBot2.FlatAppearance.BorderSize = 0;
+            this.btnBot2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBot2.Location = new System.Drawing.Point(545, 280);
             this.btnBot2.Name = "btnBot2";
             this.btnBot2.Size = new System.Drawing.Size(60, 23);
@@ -233,6 +262,8 @@ namespace Timer
             // 
             // btntenminbot
             // 
+            this.btntenminbot.FlatAppearance.BorderSize = 0;
+            this.btntenminbot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenminbot.Location = new System.Drawing.Point(296, 280);
             this.btntenminbot.Name = "btntenminbot";
             this.btntenminbot.Size = new System.Drawing.Size(60, 23);
@@ -243,6 +274,8 @@ namespace Timer
             // 
             // btntenmintop
             // 
+            this.btntenmintop.FlatAppearance.BorderSize = 0;
+            this.btntenmintop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenmintop.Location = new System.Drawing.Point(296, 98);
             this.btntenmintop.Name = "btntenmintop";
             this.btntenmintop.Size = new System.Drawing.Size(60, 23);
@@ -253,6 +286,8 @@ namespace Timer
             // 
             // btnonebot
             // 
+            this.btnonebot.FlatAppearance.BorderSize = 0;
+            this.btnonebot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnonebot.Location = new System.Drawing.Point(400, 280);
             this.btnonebot.Name = "btnonebot";
             this.btnonebot.Size = new System.Drawing.Size(60, 23);
@@ -263,7 +298,9 @@ namespace Timer
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.ForeColor = System.Drawing.Color.SlateGray;
             this.label1.Location = new System.Drawing.Point(236, 268);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 35);
@@ -271,6 +308,8 @@ namespace Timer
             // 
             // btntenmintopright
             // 
+            this.btntenmintopright.FlatAppearance.BorderSize = 0;
+            this.btntenmintopright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenmintopright.Location = new System.Drawing.Point(355, 98);
             this.btntenmintopright.Name = "btntenmintopright";
             this.btntenmintopright.Size = new System.Drawing.Size(20, 107);
@@ -281,6 +320,8 @@ namespace Timer
             // 
             // btntenmintopleft
             // 
+            this.btntenmintopleft.FlatAppearance.BorderSize = 0;
+            this.btntenmintopleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenmintopleft.Location = new System.Drawing.Point(277, 98);
             this.btntenmintopleft.Name = "btntenmintopleft";
             this.btntenmintopleft.Size = new System.Drawing.Size(20, 107);
@@ -291,6 +332,8 @@ namespace Timer
             // 
             // btntenminbotright
             // 
+            this.btntenminbotright.FlatAppearance.BorderSize = 0;
+            this.btntenminbotright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenminbotright.Location = new System.Drawing.Point(355, 202);
             this.btntenminbotright.Name = "btntenminbotright";
             this.btntenminbotright.Size = new System.Drawing.Size(20, 101);
@@ -301,6 +344,8 @@ namespace Timer
             // 
             // btntenminbotleft
             // 
+            this.btntenminbotleft.FlatAppearance.BorderSize = 0;
+            this.btntenminbotleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenminbotleft.Location = new System.Drawing.Point(277, 202);
             this.btntenminbotleft.Name = "btntenminbotleft";
             this.btntenminbotleft.Size = new System.Drawing.Size(20, 101);
@@ -311,6 +356,8 @@ namespace Timer
             // 
             // btntenminmid
             // 
+            this.btntenminmid.FlatAppearance.BorderSize = 0;
+            this.btntenminmid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntenminmid.Location = new System.Drawing.Point(296, 189);
             this.btntenminmid.Name = "btntenminmid";
             this.btntenminmid.Size = new System.Drawing.Size(60, 23);
@@ -321,6 +368,8 @@ namespace Timer
             // 
             // btnoneTop
             // 
+            this.btnoneTop.FlatAppearance.BorderSize = 0;
+            this.btnoneTop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnoneTop.Location = new System.Drawing.Point(400, 98);
             this.btnoneTop.Name = "btnoneTop";
             this.btnoneTop.Size = new System.Drawing.Size(60, 23);
@@ -331,6 +380,8 @@ namespace Timer
             // 
             // btnoneright
             // 
+            this.btnoneright.FlatAppearance.BorderSize = 0;
+            this.btnoneright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnoneright.Location = new System.Drawing.Point(459, 98);
             this.btnoneright.Name = "btnoneright";
             this.btnoneright.Size = new System.Drawing.Size(20, 107);
@@ -341,6 +392,8 @@ namespace Timer
             // 
             // btnonetopleft
             // 
+            this.btnonetopleft.FlatAppearance.BorderSize = 0;
+            this.btnonetopleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnonetopleft.Location = new System.Drawing.Point(381, 98);
             this.btnonetopleft.Name = "btnonetopleft";
             this.btnonetopleft.Size = new System.Drawing.Size(20, 107);
@@ -351,6 +404,8 @@ namespace Timer
             // 
             // btnonebotright
             // 
+            this.btnonebotright.FlatAppearance.BorderSize = 0;
+            this.btnonebotright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnonebotright.Location = new System.Drawing.Point(459, 202);
             this.btnonebotright.Name = "btnonebotright";
             this.btnonebotright.Size = new System.Drawing.Size(20, 101);
@@ -361,6 +416,8 @@ namespace Timer
             // 
             // btnonebotleft
             // 
+            this.btnonebotleft.FlatAppearance.BorderSize = 0;
+            this.btnonebotleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnonebotleft.Location = new System.Drawing.Point(381, 202);
             this.btnonebotleft.Name = "btnonebotleft";
             this.btnonebotleft.Size = new System.Drawing.Size(20, 101);
@@ -371,6 +428,8 @@ namespace Timer
             // 
             // btnonemid
             // 
+            this.btnonemid.FlatAppearance.BorderSize = 0;
+            this.btnonemid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnonemid.Location = new System.Drawing.Point(400, 189);
             this.btnonemid.Name = "btnonemid";
             this.btnonemid.Size = new System.Drawing.Size(60, 23);
@@ -381,6 +440,7 @@ namespace Timer
             // 
             // button15
             // 
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Location = new System.Drawing.Point(45, 280);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(60, 23);
@@ -391,6 +451,7 @@ namespace Timer
             // 
             // button16
             // 
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Location = new System.Drawing.Point(45, 98);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(60, 23);
@@ -401,6 +462,7 @@ namespace Timer
             // 
             // button17
             // 
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Location = new System.Drawing.Point(149, 280);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(60, 23);
@@ -411,6 +473,7 @@ namespace Timer
             // 
             // button18
             // 
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Location = new System.Drawing.Point(104, 98);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(20, 107);
@@ -421,6 +484,7 @@ namespace Timer
             // 
             // button19
             // 
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Location = new System.Drawing.Point(26, 98);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(20, 107);
@@ -431,6 +495,7 @@ namespace Timer
             // 
             // button20
             // 
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Location = new System.Drawing.Point(104, 202);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(20, 101);
@@ -441,6 +506,7 @@ namespace Timer
             // 
             // button21
             // 
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Location = new System.Drawing.Point(26, 202);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(20, 101);
@@ -451,6 +517,7 @@ namespace Timer
             // 
             // button22
             // 
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Location = new System.Drawing.Point(45, 189);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(60, 23);
@@ -461,6 +528,7 @@ namespace Timer
             // 
             // button23
             // 
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Location = new System.Drawing.Point(149, 98);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(60, 23);
@@ -471,6 +539,7 @@ namespace Timer
             // 
             // button24
             // 
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Location = new System.Drawing.Point(208, 98);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(20, 107);
@@ -481,6 +550,7 @@ namespace Timer
             // 
             // button25
             // 
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Location = new System.Drawing.Point(130, 98);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(20, 107);
@@ -491,6 +561,7 @@ namespace Timer
             // 
             // button26
             // 
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button26.Location = new System.Drawing.Point(208, 202);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(20, 101);
@@ -501,6 +572,7 @@ namespace Timer
             // 
             // button27
             // 
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Location = new System.Drawing.Point(130, 202);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(20, 101);
@@ -511,6 +583,7 @@ namespace Timer
             // 
             // button28
             // 
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button28.Location = new System.Drawing.Point(149, 189);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(60, 23);
@@ -523,6 +596,7 @@ namespace Timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 485);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button16);
@@ -568,6 +642,7 @@ namespace Timer
             this.Controls.Add(this.btnSecBotright);
             this.Controls.Add(this.btnSecBotleft);
             this.Controls.Add(this.btnSecMid);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

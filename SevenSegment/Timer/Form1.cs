@@ -33,7 +33,7 @@ namespace Timer
           
             if (seconds == 0)
             {
-                btnSecMid.UseVisualStyleBackColor = true;
+                btnSecMid.BackColor = System.Drawing.Color.Black;
 
                 btnSecTop.PerformClick();
                 btnSecTopleft.PerformClick();
@@ -44,17 +44,17 @@ namespace Timer
             }
             else if (seconds == 1)
             {
-                btnSecTop.UseVisualStyleBackColor = true;
-                btnSecTopleft.UseVisualStyleBackColor = true;
-                btnSecBotleft.UseVisualStyleBackColor = true;
-                btnBot.UseVisualStyleBackColor = true;
+                btnSecTop.BackColor = System.Drawing.Color.Black;
+                btnSecTopleft.BackColor = System.Drawing.Color.Black;
+                btnSecBotleft.BackColor = System.Drawing.Color.Black;
+                btnBot.BackColor = System.Drawing.Color.Black;
 
                 btnSecTopRight.PerformClick();
                 btnSecBotright.PerformClick();
             }
             else if (seconds == 2)
             {
-                btnSecBotright.UseVisualStyleBackColor = true;
+                btnSecBotright.BackColor = System.Drawing.Color.Black;
 
                 btnSecTop.PerformClick();
                 btnSecTopRight.PerformClick();
@@ -65,7 +65,7 @@ namespace Timer
             else if (seconds == 3)
             {
 
-                btnSecBotleft.UseVisualStyleBackColor = true;
+                btnSecBotleft.BackColor = System.Drawing.Color.Black;
 
                 btnSecTop.PerformClick();
                 btnSecTopRight.PerformClick();
@@ -75,8 +75,8 @@ namespace Timer
             }
             else if (seconds == 4)
             {
-                btnSecTop.UseVisualStyleBackColor = true;
-                btnBot.UseVisualStyleBackColor = true;
+                btnSecTop.BackColor = System.Drawing.Color.Black;
+                btnBot.BackColor = System.Drawing.Color.Black;
 
                 btnSecTopleft.PerformClick();
                 btnSecMid.PerformClick();
@@ -85,8 +85,8 @@ namespace Timer
             }
             else if (seconds == 5)
             {
-                btnSecTopRight.UseVisualStyleBackColor = true;
-                btnSecTop.UseVisualStyleBackColor = true;
+                btnSecTopRight.BackColor = System.Drawing.Color.Black;
+                btnSecTop.BackColor = System.Drawing.Color.Black;
 
                 btnSecTop.PerformClick();
                 btnSecTopleft.PerformClick();
@@ -110,10 +110,10 @@ namespace Timer
 
             else if (seconds == 7)
             {
-                btnSecTopleft.UseVisualStyleBackColor = true;
-                btnSecMid.UseVisualStyleBackColor = true; ;
-                btnBot.UseVisualStyleBackColor = true;
-                btnSecBotleft.UseVisualStyleBackColor = true;
+                btnSecTopleft.BackColor = System.Drawing.Color.Black;
+                btnSecMid.BackColor = System.Drawing.Color.Black; ;
+                btnBot.BackColor = System.Drawing.Color.Black;
+                btnSecBotleft.BackColor = System.Drawing.Color.Black;
 
                 btnSecTop.PerformClick();
                 btnSecTopRight.PerformClick();
@@ -134,7 +134,7 @@ namespace Timer
             else
             {
 
-                btnSecBotleft.UseVisualStyleBackColor = true;
+                btnSecBotleft.BackColor = System.Drawing.Color.Black;
                 btnSecTop.PerformClick();
                 btnSecTopleft.PerformClick();
                 btnSecTopRight.PerformClick();
@@ -161,7 +161,7 @@ namespace Timer
 
             if (tenthsec == 0)
             {
-                btnMid2.UseVisualStyleBackColor = true;
+                btnMid2.BackColor = System.Drawing.Color.Black;
 
                 btnTop2.PerformClick();
                 btnTop2left.PerformClick();
@@ -172,17 +172,17 @@ namespace Timer
             }
             else if (tenthsec == 1)
             {
-                btnTop2.UseVisualStyleBackColor = true;
-                btnTop2left.UseVisualStyleBackColor = true;
-                btnBot2lleft.UseVisualStyleBackColor = true;
-                btnBot2.UseVisualStyleBackColor = true;
+                btnTop2.BackColor = System.Drawing.Color.Black;
+                btnTop2left.BackColor = System.Drawing.Color.Black;
+                btnBot2lleft.BackColor = System.Drawing.Color.Black;
+                btnBot2.BackColor = System.Drawing.Color.Black;
 
                 btnTop2right.PerformClick();
                 btnBot2right.PerformClick();
             }
             else if (tenthsec == 2)
             {
-                btnBot2right.UseVisualStyleBackColor = true;
+                btnBot2right.BackColor = System.Drawing.Color.Black;
 
                 btnTop2.PerformClick();
                 btnTop2right.PerformClick();
@@ -193,7 +193,7 @@ namespace Timer
             else if (tenthsec == 3)
             {
 
-                btnBot2lleft.UseVisualStyleBackColor = true;
+                btnBot2lleft.BackColor = System.Drawing.Color.Black;
 
                 btnTop2.PerformClick();
                 btnTop2right.PerformClick();
@@ -203,8 +203,8 @@ namespace Timer
             }
             else if (tenthsec == 4)
             {
-                btnTop2.UseVisualStyleBackColor = true;
-                btnBot2.UseVisualStyleBackColor = true;
+                btnTop2.BackColor = System.Drawing.Color.Black;
+                btnBot2.BackColor = System.Drawing.Color.Black;
 
                 btnTop2left.PerformClick();
                 btnMid2.PerformClick();
@@ -213,8 +213,8 @@ namespace Timer
             }
             else if (tenthsec == 5)
             {
-                btnTop2right.UseVisualStyleBackColor = true;
-                btnTop2.UseVisualStyleBackColor = true;
+                btnTop2right.BackColor = System.Drawing.Color.Black;
+                btnTop2.BackColor = System.Drawing.Color.Black;
 
                 btnTop2.PerformClick();
                 btnTop2left.PerformClick();
@@ -226,7 +226,7 @@ namespace Timer
 
             else
             {
-                btnMid2.UseVisualStyleBackColor = true;
+                btnMid2.BackColor = System.Drawing.Color.Black;
                 btnTop2right.PerformClick();
                 btnBot2lleft.PerformClick();
                
@@ -249,17 +249,17 @@ namespace Timer
             }
             else if (onesmin == 1)
             {
-                btnoneTop.UseVisualStyleBackColor = true;
-                btnonetopleft.UseVisualStyleBackColor = true;
-                btnonebotleft.UseVisualStyleBackColor = true;
-                btnonebot.UseVisualStyleBackColor = true;
+                btnoneTop.BackColor = System.Drawing.Color.Black;
+                btnonetopleft.BackColor = System.Drawing.Color.Black;
+                btnonebotleft.BackColor = System.Drawing.Color.Black;
+                btnonebot.BackColor = System.Drawing.Color.Black;
 
                 btnoneright.PerformClick();
                 btnonebotright.PerformClick();
             }
             else if (onesmin == 2)
             {
-                btnonebotright.UseVisualStyleBackColor = true;
+                btnonebotright.BackColor = System.Drawing.Color.Black;
 
                 btnoneTop.PerformClick();
                 btnoneright.PerformClick();
@@ -270,7 +270,7 @@ namespace Timer
             else if (onesmin == 3)
             {
 
-                btnonebotleft.UseVisualStyleBackColor = true;
+                btnonebotleft.BackColor = System.Drawing.Color.Black;
 
                 btnoneTop.PerformClick();
                 btnoneright.PerformClick();
@@ -280,8 +280,8 @@ namespace Timer
             }
             else if (onesmin == 4)
             {
-                btnoneTop.UseVisualStyleBackColor = true;
-                btnonebot.UseVisualStyleBackColor = true;
+                btnoneTop.BackColor = System.Drawing.Color.Black;
+                btnonebot.BackColor = System.Drawing.Color.Black;
 
                 btnonetopleft.PerformClick();
                 btnonemid.PerformClick();
@@ -290,8 +290,8 @@ namespace Timer
             }
             else if (onesmin == 5)
             {
-                btnoneright.UseVisualStyleBackColor = true;
-                btnoneTop.UseVisualStyleBackColor = true;
+                btnoneright.BackColor = System.Drawing.Color.Black;
+                btnoneTop.BackColor = System.Drawing.Color.Black;
 
                 btnoneTop.PerformClick();
                 btnonetopleft.PerformClick();
@@ -315,10 +315,10 @@ namespace Timer
 
             else if (onesmin == 7)
             {
-                btnonetopleft.UseVisualStyleBackColor = true;
-                btnonemid.UseVisualStyleBackColor = true; ;
-                btnonebot.UseVisualStyleBackColor = true;
-                btnonebotleft.UseVisualStyleBackColor = true;
+                btnonetopleft.BackColor = System.Drawing.Color.Black;
+                btnonemid.BackColor = System.Drawing.Color.Black; ;
+                btnonebot.BackColor = System.Drawing.Color.Black;
+                btnonebotleft.BackColor = System.Drawing.Color.Black;
 
                 btnoneTop.PerformClick();
                 btnoneright.PerformClick();
@@ -337,7 +337,7 @@ namespace Timer
             }
             else if (onesmin == 9)
             {
-                btnonebotleft.UseVisualStyleBackColor = true;
+                btnonebotleft.BackColor = System.Drawing.Color.Black;
                 btnoneTop.PerformClick();
                 btnonetopleft.PerformClick();
                 btnoneright.PerformClick();
@@ -348,23 +348,95 @@ namespace Timer
             }
             else
             {
-                btnonemid.UseVisualStyleBackColor = true;
+                btnonemid.BackColor = System.Drawing.Color.Black;
                 btnonebotleft.PerformClick();
-                onesmin = 0;
-                tenthsec++;
+                
+            }
+            tensmin();
+        }
+        private void tensmin()
+        {
+            string datemin1 = DateTime.Now.ToString("mm");
+            tenthmin = Convert.ToInt32(datemin1.Substring(0, 1));
+
+            if (tenthmin == 0)
+            {
+                btntenminmid.BackColor = System.Drawing.Color.Black;
+
+                btntenmintop.PerformClick();
+                btntenmintopleft.PerformClick();
+                btntenmintopright.PerformClick();
+                btntenminbotright.PerformClick();
+                btntenminbotleft.PerformClick();
+                btntenminbot.PerformClick();
+            }
+            else if (tenthmin == 1)
+            {
+                btntenmintop.BackColor = System.Drawing.Color.Black;
+                btntenmintopleft.BackColor = System.Drawing.Color.Black;
+                btntenminbotleft.BackColor = System.Drawing.Color.Black;
+                btntenminbot.BackColor = System.Drawing.Color.Black;
+
+                btntenmintopright.PerformClick();
+                btntenminbotright.PerformClick();
+            }
+            else if (tenthmin == 2)
+            {
+                btntenminbotright.BackColor = System.Drawing.Color.Black;
+
+                btntenmintop.PerformClick();
+                btntenmintopright.PerformClick();
+                btntenminmid.PerformClick();
+                btntenminbotleft.PerformClick();
+                btntenminbot.PerformClick();
+            }
+            else if (tenthmin == 3)
+            {
+
+                btntenminbotleft.BackColor = System.Drawing.Color.Black;
+
+                btntenmintop.PerformClick();
+                btntenmintopright.PerformClick();
+                btntenminmid.PerformClick();
+                btntenminbotright.PerformClick();
+                btntenminbot.PerformClick();
+            }
+            else if (tenthmin == 4)
+            {
+                btntenmintop.BackColor = System.Drawing.Color.Black;
+                btntenminbot.BackColor = System.Drawing.Color.Black;
+
+                btntenmintopleft.PerformClick();
+                btntenminmid.PerformClick();
+                btntenmintopright.PerformClick();
+                btntenminbotright.PerformClick();
+            }
+            else if (tenthmin == 5)
+            {
+                btntenmintopright.BackColor = System.Drawing.Color.Black;
+                btntenmintop.BackColor = System.Drawing.Color.Black;
+
+                btntenmintop.PerformClick();
+                btntenmintopleft.PerformClick();
+                btntenminmid.PerformClick();
+                btntenminbotright.PerformClick();
+                btntenminbot.PerformClick();
+
+            }
+
+            else
+            {
+                btntenminmid.BackColor = System.Drawing.Color.Black;
+                btntenmintopright.PerformClick();
+                btntenminbotleft.PerformClick();
+
             }
 
         }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void HoursMinSEC(object sender, EventArgs e)
         {
             Button btnclick = (Button)sender;
-            btnclick.BackColor = System.Drawing.Color.Red;
+            btnclick.BackColor = System.Drawing.Color.White;
         }
     }
 }
