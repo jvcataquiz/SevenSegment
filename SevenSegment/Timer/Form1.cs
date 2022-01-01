@@ -38,6 +38,7 @@ namespace Timer
             datesec = DateTime.Now.ToString("ss");
             seconds = Convert.ToInt32(datesec.Substring(datesec.Length - 1)) ;
           
+
             if (seconds == 0)
             {
                 btnSecMid.BackColor = System.Drawing.Color.Black;
@@ -102,6 +103,7 @@ namespace Timer
                 btnBot.PerformClick();
 
             }
+
 
 
 
